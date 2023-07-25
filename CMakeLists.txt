@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20.0)
+project(blpapi-vcpkg-example LANGUAGES CXX)
+add_executable(blpapi-vcpkg-example main.cpp)
+find_package(blpapi CONFIG REQUIRED)
+target_link_libraries(blpapi-vcpkg-example PRIVATE blpapi)

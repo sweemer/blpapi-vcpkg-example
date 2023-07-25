@@ -1,0 +1,6 @@
+{
+    "name": "blpapi-vcpkg-example",
+    "dependencies": [
+        "blpapi"
+    ]
+}
